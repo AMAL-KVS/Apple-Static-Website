@@ -1,0 +1,357 @@
+.header{
+    display: flex;
+   width: 100%;
+   height: 44px;
+   margin-left: 0%;
+   margin-top: 0%;
+   margin-bottom: 10px;
+   opacity: 0.9;
+   background-color: black;
+   position: fixed;
+   
+    
+}
+.inner header{
+
+    cursor: default;
+    margin: 0 -8px;
+    width: auto;
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Box{
+    margin-left: 165px;
+    height: 44px;
+    width: 45px;
+}
+#text{
+    font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #f5f5f7;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 8px;
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline-offset: -7px;
+    cursor: pointer;
+}
+.content{
+    background-color:#f3f3fc;
+    height: 680px;
+    width: 100%;
+    margin-top: 60px;
+
+
+}
+.text1{
+    color: black;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-style: italic;
+    padding-left: 224px;
+    margin-bottom: 0%;
+    cursor: pointer;
+}
+.text2{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+    padding-left: 419px;
+    
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.text3{
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 0.65em;
+    padding-left: 600px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.text4{
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+    padding-left: 300px;
+    cursor: pointer;
+    padding-top: 70px;
+    margin-top: 0%;
+}
+.content2{
+    background-color:#fbfbfd;
+    display: flex;
+    width: 100%;
+    height: 536px;
+    cursor: pointer;
+    
+}
+.text5{
+    margin-bottom: 10px;
+        font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    cursor: pointer;
+}
+.text6{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-left: 30px;
+    margin-top: 15px;
+    position: absolute;
+    cursor: pointer;
+}
+.img1{
+    height: 463px;
+    width: 541px;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.content3{
+    
+    background-color: #fbfbfd;
+    height: 625px;
+    width: 100%;
+}
+.text7{
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.text8{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.img2{
+    cursor: pointer;
+    height: 428px;
+    width: 939px;
+    margin-left: 3200px0;
+    margin-top: 19px;
+    margin-left: 200px;
+}
+.parent{
+display: flex;
+height: 597px;
+width: 1348px;
+background-color: rgb(255, 255, 255);
+}
+.child1{
+    background-color: #fbfbfd;
+    width: 50%;
+
+}
+.text9{
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 0px;
+
+}
+.text10{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+.child2{
+   
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.text11{
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 10px;
+}
+.text12{
+    cursor: pointer;
+    color: white;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.child3{
+    height: 400px;
+    width: 500px;
+    background-color: brown;
+}
+.child4{
+    height: 400px;
+    width: 500px;
+    background-color: chartreuse;
+}
+.parent1{
+    display: flex;
+    height: 597px;
+    width: 1348px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    }
+    .childA{
+        background-color: #fbfbfd;
+        width: 50%;
+    }
+    .textA{
+        cursor: pointer;
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: .016em;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .textB{
+        cursor: pointer;
+        color: white;
+        font-size: 21px;
+        line-height: 1.2381;
+        font-weight: 400;
+        letter-spacing: .016em;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    #ac{
+        --footer-background: #f5f5f7;
+        --footer-border-color: #d2d2d7;
+        --footer-text-color: #6e6e73;
+        --footer-link-color: #424245;
+        --footer-directory-title-color: #1d1d1f;
+        --footer-directory-title-color-hover: #000;
+        font-size: 12px;
+        line-height: 1.33337;
+        font-weight: 400;
+        letter-spacing: -.01em;
+        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+        background: var(--footer-background);
+        color: var(--footer-text-color);
+        min-width: 1024px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+    .footer1{
+        
+        height: 601px;
+        width: 1188px;
+    margin-left: 164px;
+    
+    }
+    .section1{
+        height: 980px;
+        height: 167px;
+    }
+    #note1{
+        font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+    #note2{
+        font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    }
+    .f {
+        height: 100%; width: 20%;
+    }
+    .f h3{
+        cursor: pointer;
+
+    }
+    .f1{
+        height: 100%; width: 20%
+
+    }
+    .f1 h3{
+        cursor: pointer;
+    }
+    f2{
+        cursor: pointer;
+    }
+   #text:hover{
+        color: rgb(165, 154, 154);
+        
+    }
+    #arun :hover img    {
+        color: aqua;
+        background-color: aqua;
+    }
+    #arun{
+        cursor: pointer;
+    }
